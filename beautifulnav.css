@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+}
+nav{
+    position: relative;
+    width:410px;
+    height:50px;
+    background-color: #fff;
+    box-shadow: 0px 6px 10px  rgba(179,179,179,.5);
+    /* border: 2px solid red; */
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+/* Here we donot need to use margin padding because to center the list items line-height is used */
+nav li a{
+    text-decoration: none;
+    display: block;
+    width:calc(410px/4);
+    /* margin:16px auto; */
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    color: #121212;
+    font-family: 'poppins', sans-serif;
+    
+}
+.slide{
+    position: absolute;
+    bottom:0;left:0;
+    width:calc(410px/4);
+    height:4px;
+    background: #3641b7;
+    transition: .4s;
+}
